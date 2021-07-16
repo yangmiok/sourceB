@@ -5,7 +5,9 @@ import sys
 reload(sys)
 
 sys.setdefaultencoding( "utf-8" )
-//old old old code
+
+//new new new new code
+
 ssh = paramiko.SSHClient()
 ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 ssh.connect(hostname='192.168.38.38', port=22, username='root', password='xxx')
